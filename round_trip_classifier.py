@@ -51,20 +51,27 @@ def classifyNB(vec2_classify, p0Vec, p1Vec, p0, p1):
 		return 0
 
 def get_posts(token):
-	r = requests.get("https://graph.facebook.com/v2.8/225049564330328/feed?access_token=" + token)
+	r = requests.get("https://graph.facebook.com/v2.8/225049564330328/feed?limit=500&access_token=" + token)
 	j = r.json()
 	data = j['data']
-	next = j['paging']['next']
+	next_posts = j['paging']['next']
 	prev = j['paging']['previous']
 	messages = []
-	post = [""]
-	num_posts = 0
-	while i < 500:
-		for i in data:
-			print "<---------------------- NEXT POST ----------------------->\n"
-			post[0] = ' '.join(i['message'].split('\n'))
-			print post
-			messages.append(post)
+	post = ""
+	for msg in data:
+	#	print "<---------------------- POST # " + str(i) + " ----------------------->\n"
+		if ('message' not in msg):
+			continue
+		post = ' '.join(msg['message'].split('\n')).encode('utf-8').strip()
+		messages.append(post)
+	return len(messages), messages
 
-	return messages
-get_posts("EAACEdEose0cBAPm4XsosDDNx3rZAlQulSJ5df6HCYvpQi6S8hCyZB9ADH1V15PUfltfifap5EE8j4GIHfmZCkk6dQXcvvIBZANsqyDKu7oq6eNuIpsDC35agewKpQk5gKiXqb88FHxKfv4Hwg7RgnJ2ALn4Gqxh04aJX8aBhjUVosjulT4ZBW")
+def write_posts_to_file(posts, filename):
+	f = open(filename, "w+")
+	for msg in posts:
+		f.write(msg + " {ROUND TRIP: }\n\n")
+	f.close()
+
+num_posts, posts = get_posts("EAACEdEose0cBACyUYdbbczJIea8Kk9PaYjI34LLyzGkuLSpZCG57ZAoWPC4TB6ZBFqZBC38Dyh6IaZAaXozS4rZCkdgRmDS180jkzvdxZAb1t6v7n5LVm1O2ic7KcMZCE0bKxrUXVzg7Q50zGQpCZARzJXHt1W1nfagtZB2qpIbo1alqoGNxG3lNFe")
+print num_posts
+write_posts_to_file(posts, "training_data.txt")
