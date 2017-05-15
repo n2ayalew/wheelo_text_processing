@@ -72,6 +72,59 @@ def write_posts_to_file(posts, filename):
 		f.write(msg + " {ROUND TRIP: }\n\n")
 	f.close()
 
-num_posts, posts = get_posts("EAACEdEose0cBACyUYdbbczJIea8Kk9PaYjI34LLyzGkuLSpZCG57ZAoWPC4TB6ZBFqZBC38Dyh6IaZAaXozS4rZCkdgRmDS180jkzvdxZAb1t6v7n5LVm1O2ic7KcMZCE0bKxrUXVzg7Q50zGQpCZARzJXHt1W1nfagtZB2qpIbo1alqoGNxG3lNFe")
-print num_posts
-write_posts_to_file(posts, "training_data.txt")
+def parse_trainning_data():
+	f = open("training_data.txt", "r")
+	posts = []
+	labels = []
+	for line in f:
+		if (line != "\n" and (line.find("ROUND TRIP") != -1)):
+			line_parts = line.split("ROUND TRIP:")
+			post = parse_text(line_parts[0].strip("{").strip())
+			posts.append(post)
+			labels.append(float(line_parts[1].strip("}\n").strip()))
+	return posts,labels
+
+def parse_text(s):
+	reg = re.compile("[\"$&+,:;=?@#|_'.^*()%!/]|\s+")
+	lst = reg.split(s)
+	token_list = [tok.lower() for tok in lst if len(tok) > 0]
+	return token_list
+
+def main():
+	posts, labels = parse_trainning_data()
+	vocab = build_vocab(posts)
+
+	# vectorize posts
+	post_vecs = []
+	for p in posts:
+		vec = convert_words_to_vec(p, vocab)
+		post_vecs.append(vec)
+	
+	# get 50 random posts for test data
+	training_set = range(500)
+	test_list = []
+
+	for i in range(50):
+		rand_index = int(random.uniform(0, len(training_set)))
+		test_list.append(training_set[rand_index])
+		del(training_set[rand_index])
+
+	training_posts = []
+	training_labels = []
+
+	for i in training_set:
+		training_posts.append(post_vecs[i])
+		training_labels.append(labels[i])
+
+	p1,p0,p1Vec,p0Vec = trainNB(array(training_posts), array(training_labels))
+
+	# Test classifier
+	error_rate = 0.0
+	for i in test_list:
+		label = classifyNB(post_vecs[i], p0Vec, p1Vec, p0, p1)
+		if (label != labels[i]):
+			error_rate += 1
+	error_rate /= 50
+	print error_rate
+
+main()
