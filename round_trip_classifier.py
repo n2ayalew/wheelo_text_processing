@@ -2,6 +2,9 @@ from pprint import pprint
 import requests
 import re
 from numpy import *
+import nltk
+import codecs
+from nltk.tokenize import RegexpTokenizer
 
 # 1 => round trip
 # 0 => not round trip
@@ -79,7 +82,7 @@ def parse_trainning_data():
 	for line in f:
 		if (line != "\n" and (line.find("ROUND TRIP") != -1)):
 			line_parts = line.split("ROUND TRIP:")
-			post = parse_text(line_parts[0].strip("{").strip())
+			post = parse_text( line_parts[0].strip("{").strip() )
 			posts.append(post)
 			labels.append(float(line_parts[1].strip("}\n").strip()))
 	return posts,labels
@@ -90,7 +93,7 @@ def parse_text(s):
 	token_list = [tok.lower() for tok in lst if len(tok) > 0]
 	return token_list
 
-def main():
+def round_trip_classifier_bag_of_word():
 	posts, labels = parse_trainning_data()
 	vocab = build_vocab(posts)
 
@@ -127,4 +130,60 @@ def main():
 	error_rate /= 50
 	print error_rate
 
-main()
+def round_trip_classifier_pos_tagger():
+	tokenizer = RegexpTokenizer("\w+|-*>|<-*|\$\s?\d+|\d+:\d.\s.am|\d+:\d.\s.pm")
+	f = codecs.open('training_data.txt', 'r', 'utf-8-sig')
+	posts = []
+	posts_tagged = []
+	labels = []
+
+	for line in f:
+		if (line != "\n" and (line.find("ROUND TRIP") != -1)):
+			line_parts = line.split("ROUND TRIP:")
+			p = line_parts[0].strip("{").strip()
+			toks = tokenizer.tokenize(p)
+			posts.append(nltk.pos_tag(toks))
+			labels.append(float(line_parts[1].strip("}\n").strip()))
+			tags = [token[1] for token in posts[-1]]
+			posts_tagged.append(tags)
+
+	# We'll classify posts using Naive bayes whereby features are the pos tags of the post
+	vocab = build_vocab(posts_tagged)
+	post_vecs = []
+
+	# vectorize posts
+	post_vecs = []
+	for p in posts_tagged:
+		vec = convert_words_to_vec(p, vocab)
+		post_vecs.append(vec)
+
+	# get 50 random posts for test data
+	training_set = range(500)
+	test_list = []
+
+	for i in range(50):
+		rand_index = int(random.uniform(0, len(training_set)))
+		test_list.append(training_set[rand_index])
+		del(training_set[rand_index])
+
+	training_posts = []
+	training_labels = []
+
+	for i in training_set:
+		training_posts.append(post_vecs[i])
+		training_labels.append(labels[i])
+
+	p1,p0,p1Vec,p0Vec = trainNB(array(training_posts), array(training_labels))
+
+	# Test classifier
+	error_rate = 0.0
+	for i in test_list:
+		label = classifyNB(post_vecs[i], p0Vec, p1Vec, p0, p1)
+		if (label != labels[i]):
+			error_rate += 1
+	error_rate /= 50
+	print '{} %'.format(error_rate*100)
+
+	f.close()
+
+round_trip_classifier_pos_tagger()
