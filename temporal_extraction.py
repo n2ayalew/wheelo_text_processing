@@ -4,6 +4,7 @@ from numpy import *
 import nltk
 import codecs
 from nltk_contrib.timex import *
+import ternip
 
 def get_posts(token):
 	r = requests.get("https://graph.facebook.com/v2.8/225049564330328/feed?limit=500&access_token=" + token)
@@ -32,13 +33,14 @@ def get_date_time(p):
 	# timex tagging
 	tags = tag(p)
 	dates = ground(tags, gmt())
-	return dates
+	return dates, ne_chunks
 
 def test_temporal_extracter(token):
 	num_posts, posts = get_posts(token)
 
 	for p in posts:
-		'-----------------------------NEW POST ----------------------------------'
-		print get_date_time(p) + '\n\n'
+		print "-----------------------------NEW POST----------------------------------\n"
+		timex_tagged, chunks = get_date_time(p)
+		#print timex_tagged + "\n\n"
+		print "-----------------------------END POST----------------------------------\n"
 
-test_temporal_extracter('EAACEdEose0cBABlK8ORHZCm24WRUsLz8UVKSSXMjL0agkLtE15rnIcH4dhv33TZBmdUZBqO4YvkjCfjRstjzCCLO1TxJG786gQiJx3xxpxYzPLkTZAjlEWVThnPskLWVmpy1ZAB6hZAmbeOR00eNPZBl4QP7gOJu2bA5GXO2ZBRMRWFtlZAsEEl8ZC')
