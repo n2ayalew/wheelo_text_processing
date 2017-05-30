@@ -1,8 +1,10 @@
 import requests
 import re
+import sys
 from numpy import *
 import nltk
 import codecs
+import tarsqi
 
 def get_posts(token):
 	r = requests.get("https://graph.facebook.com/v2.8/225049564330328/feed?limit=500&access_token=" + token)
@@ -23,9 +25,14 @@ def get_posts(token):
 			continue
 	return len(messages), messages
 
-def get_date_time(p):
+def get_date_time():
 	# Use ttk script to extract date and time info
 	# Need to modify script so we can just import a module and call functions for temporal extraction
+	options = ['--pipeline', 'TOKENIZER,TAGGER,GUTIME', 'post1.xml', 'out.xml']
+	try:
+		tarsqi.run_tarsqi(options)
+	except Exception:
+		sys.exit('ERROR: ' + str(sys.exc_value))
 
 def test_temporal_extracter(token):
 	num_posts, posts = get_posts(token)
@@ -36,3 +43,5 @@ def test_temporal_extracter(token):
 		print timex_tagged + "\n\n"
 		print "-----------------------------END POST----------------------------------\n"
 
+
+get_date_time()
