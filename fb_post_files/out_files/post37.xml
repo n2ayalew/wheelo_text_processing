@@ -1,0 +1,137 @@
+<ttk>
+<text>
+
+Hey there! Recently started a new FB group for Mississauga carpooling/ridesharing! I created the group because I'm tired of paying expensive Uber fares all the time. I'm hoping this new group will someday add value to us Saugans and will help us find and offer affordable rides to other cities easily! If you can join the Facebook and start posting, that'd be amazing and will help get the activity going! :)   https://www.facebook.com/groups/MississaugaCarpool/
+
+</text>
+<metadata>
+  <dct value="20170817"/>
+</metadata>
+<source_tags>
+  <TEXT begin="1" end="465" />
+</source_tags>
+<tarsqi_tags>
+  <docelement begin="2" end="464" id="d1" origin="DOCSTRUCTURE" type="paragraph" />
+  <s begin="2" end="12" id="s1" origin="TOKENIZER" />
+  <lex begin="2" end="5" id="l1" lemma="Hey" origin="TOKENIZER,TAGGER" pos="NNP" text="Hey" />
+  <ng begin="2" end="5" id="c1" origin="CHUNKER" />
+  <lex begin="6" end="11" id="l2" lemma="there" origin="TOKENIZER,TAGGER" pos="RB" text="there" />
+  <lex begin="11" end="12" id="l3" lemma="!" origin="TOKENIZER,TAGGER" pos="." text="!" />
+  <s begin="13" end="84" id="s2" origin="TOKENIZER" />
+  <lex begin="13" end="21" id="l4" lemma="recently" origin="TOKENIZER,TAGGER" pos="RB" text="Recently" />
+  <lex begin="22" end="29" id="l5" lemma="start" origin="TOKENIZER,TAGGER" pos="VBD" text="started" />
+  <vg begin="22" end="29" id="c2" origin="CHUNKER" />
+  <ng begin="30" end="44" id="c3" origin="CHUNKER" />
+  <lex begin="30" end="31" id="l6" lemma="a" origin="TOKENIZER,TAGGER" pos="DT" text="a" />
+  <lex begin="32" end="35" id="l7" lemma="new" origin="TOKENIZER,TAGGER" pos="JJ" text="new" />
+  <lex begin="36" end="38" id="l8" lemma="FB" origin="TOKENIZER,TAGGER" pos="NNP" text="FB" />
+  <lex begin="39" end="44" id="l9" lemma="group" origin="TOKENIZER,TAGGER" pos="NN" text="group" />
+  <lex begin="45" end="48" id="l10" lemma="for" origin="TOKENIZER,TAGGER" pos="IN" text="for" />
+  <ng begin="49" end="83" id="c4" origin="CHUNKER" />
+  <lex begin="49" end="60" id="l11" lemma="Mississauga" origin="TOKENIZER,TAGGER" pos="NNP" text="Mississauga" />
+  <lex begin="61" end="83" id="l12" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NN" text="carpooling/ridesharing" />
+  <lex begin="83" end="84" id="l13" lemma="!" origin="TOKENIZER,TAGGER" pos="." text="!" />
+  <s begin="85" end="167" id="s3" origin="TOKENIZER" />
+  <lex begin="85" end="86" id="l14" lemma="I" origin="TOKENIZER,TAGGER" pos="PP" text="I" />
+  <ng begin="85" end="86" id="c5" origin="CHUNKER" />
+  <lex begin="87" end="94" id="l15" lemma="create" origin="TOKENIZER,TAGGER" pos="VBD" text="created" />
+  <vg begin="87" end="94" id="c6" origin="CHUNKER" />
+  <ng begin="95" end="104" id="c7" origin="CHUNKER" />
+  <lex begin="95" end="98" id="l16" lemma="the" origin="TOKENIZER,TAGGER" pos="DT" text="the" />
+  <lex begin="99" end="104" id="l17" lemma="group" origin="TOKENIZER,TAGGER" pos="NN" text="group" />
+  <lex begin="105" end="112" id="l18" lemma="because" origin="TOKENIZER,TAGGER" pos="IN" text="because" />
+  <lex begin="113" end="114" id="l19" lemma="I" origin="TOKENIZER,TAGGER" pos="PP" text="I" />
+  <ng begin="113" end="114" id="c8" origin="CHUNKER" />
+  <lex begin="114" end="116" id="l20" lemma="be" origin="TOKENIZER,TAGGER" pos="VBP" text="'m" />
+  <vg begin="114" end="116" id="c9" origin="CHUNKER" />
+  <lex begin="117" end="122" id="l21" lemma="tired" origin="TOKENIZER,TAGGER" pos="JJ" text="tired" />
+  <lex begin="123" end="125" id="l22" lemma="of" origin="TOKENIZER,TAGGER" pos="IN" text="of" />
+  <ng begin="126" end="147" id="c10" origin="CHUNKER" />
+  <lex begin="126" end="132" id="l23" lemma="pay" origin="TOKENIZER,TAGGER" pos="VBG" text="paying" />
+  <lex begin="133" end="142" id="l24" lemma="expensive" origin="TOKENIZER,TAGGER" pos="JJ" text="expensive" />
+  <lex begin="143" end="147" id="l25" lemma="Uber" origin="TOKENIZER,TAGGER" pos="NNP" text="Uber" />
+  <lex begin="148" end="153" id="l26" lemma="fare" origin="TOKENIZER,TAGGER" pos="VBZ" text="fares" />
+  <vg begin="148" end="153" id="c11" origin="CHUNKER" />
+  <lex begin="154" end="157" id="l27" lemma="all" origin="TOKENIZER,TAGGER" pos="PDT" text="all" />
+  <ng begin="158" end="166" id="c12" origin="CHUNKER" />
+  <lex begin="158" end="161" id="l28" lemma="the" origin="TOKENIZER,TAGGER" pos="DT" text="the" />
+  <lex begin="162" end="166" id="l29" lemma="time" origin="TOKENIZER,TAGGER" pos="NN" text="time" />
+  <lex begin="166" end="167" id="l30" lemma="." origin="TOKENIZER,TAGGER" pos="." text="." />
+  <s begin="168" end="303" id="s4" origin="TOKENIZER" />
+  <lex begin="168" end="169" id="l31" lemma="I" origin="TOKENIZER,TAGGER" pos="PP" text="I" />
+  <ng begin="168" end="169" id="c13" origin="CHUNKER" />
+  <vg begin="169" end="178" id="c14" origin="CHUNKER" />
+  <lex begin="169" end="171" id="l32" lemma="be" origin="TOKENIZER,TAGGER" pos="VBP" text="'m" />
+  <lex begin="172" end="178" id="l33" lemma="hope" origin="TOKENIZER,TAGGER" pos="VBG" text="hoping" />
+  <ng begin="179" end="193" id="c15" origin="CHUNKER" />
+  <lex begin="179" end="183" id="l34" lemma="this" origin="TOKENIZER,TAGGER" pos="DT" text="this" />
+  <lex begin="184" end="187" id="l35" lemma="new" origin="TOKENIZER,TAGGER" pos="JJ" text="new" />
+  <lex begin="188" end="193" id="l36" lemma="group" origin="TOKENIZER,TAGGER" pos="NN" text="group" />
+  <vg begin="194" end="210" id="c16" origin="CHUNKER" />
+  <lex begin="194" end="198" id="l37" lemma="will" origin="TOKENIZER,TAGGER" pos="MD" text="will" />
+  <lex begin="199" end="206" id="l38" lemma="someday" origin="TOKENIZER,TAGGER" pos="RB" text="someday" />
+  <lex begin="207" end="210" id="l39" lemma="add" origin="TOKENIZER,TAGGER" pos="VB" text="add" />
+  <lex begin="211" end="216" id="l40" lemma="value" origin="TOKENIZER,TAGGER" pos="NN" text="value" />
+  <ng begin="211" end="216" id="c17" origin="CHUNKER" />
+  <lex begin="217" end="219" id="l41" lemma="to" origin="TOKENIZER,TAGGER" pos="TO" text="to" />
+  <lex begin="220" end="222" id="l42" lemma="us" origin="TOKENIZER,TAGGER" pos="PP" text="us" />
+  <ng begin="220" end="222" id="c18" origin="CHUNKER" />
+  <lex begin="223" end="230" id="l43" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NNP" text="Saugans" />
+  <ng begin="223" end="230" id="c19" origin="CHUNKER" />
+  <lex begin="231" end="234" id="l44" lemma="and" origin="TOKENIZER,TAGGER" pos="CC" text="and" />
+  <vg begin="235" end="244" id="c20" origin="CHUNKER" />
+  <lex begin="235" end="239" id="l45" lemma="will" origin="TOKENIZER,TAGGER" pos="MD" text="will" />
+  <lex begin="240" end="244" id="l46" lemma="help" origin="TOKENIZER,TAGGER" pos="VB" text="help" />
+  <lex begin="245" end="247" id="l47" lemma="us" origin="TOKENIZER,TAGGER" pos="PP" text="us" />
+  <ng begin="245" end="247" id="c21" origin="CHUNKER" />
+  <lex begin="248" end="252" id="l48" lemma="find" origin="TOKENIZER,TAGGER" pos="VB" text="find" />
+  <vg begin="248" end="252" id="c22" origin="CHUNKER" />
+  <lex begin="253" end="256" id="l49" lemma="and" origin="TOKENIZER,TAGGER" pos="CC" text="and" />
+  <lex begin="257" end="262" id="l50" lemma="offer" origin="TOKENIZER,TAGGER" pos="VB" text="offer" />
+  <vg begin="257" end="262" id="c23" origin="CHUNKER" />
+  <ng begin="263" end="279" id="c24" origin="CHUNKER" />
+  <lex begin="263" end="273" id="l51" lemma="affordable" origin="TOKENIZER,TAGGER" pos="JJ" text="affordable" />
+  <lex begin="274" end="279" id="l52" lemma="ride" origin="TOKENIZER,TAGGER" pos="NNS" text="rides" />
+  <lex begin="280" end="282" id="l53" lemma="to" origin="TOKENIZER,TAGGER" pos="TO" text="to" />
+  <ng begin="283" end="295" id="c25" origin="CHUNKER" />
+  <lex begin="283" end="288" id="l54" lemma="other" origin="TOKENIZER,TAGGER" pos="JJ" text="other" />
+  <lex begin="289" end="295" id="l55" lemma="city" origin="TOKENIZER,TAGGER" pos="NNS" text="cities" />
+  <lex begin="296" end="302" id="l56" lemma="easily" origin="TOKENIZER,TAGGER" pos="RB" text="easily" />
+  <lex begin="302" end="303" id="l57" lemma="!" origin="TOKENIZER,TAGGER" pos="." text="!" />
+  <s begin="304" end="407" id="s5" origin="TOKENIZER" />
+  <lex begin="304" end="306" id="l58" lemma="if" origin="TOKENIZER,TAGGER" pos="IN" text="If" />
+  <lex begin="307" end="310" id="l59" lemma="you" origin="TOKENIZER,TAGGER" pos="PP" text="you" />
+  <ng begin="307" end="310" id="c26" origin="CHUNKER" />
+  <vg begin="311" end="319" id="c27" origin="CHUNKER" />
+  <lex begin="311" end="314" id="l60" lemma="can" origin="TOKENIZER,TAGGER" pos="MD" text="can" />
+  <lex begin="315" end="319" id="l61" lemma="join" origin="TOKENIZER,TAGGER" pos="VB" text="join" />
+  <ng begin="320" end="332" id="c28" origin="CHUNKER" />
+  <lex begin="320" end="323" id="l62" lemma="the" origin="TOKENIZER,TAGGER" pos="DT" text="the" />
+  <lex begin="324" end="332" id="l63" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NN" text="Facebook" />
+  <lex begin="333" end="336" id="l64" lemma="and" origin="TOKENIZER,TAGGER" pos="CC" text="and" />
+  <ng begin="337" end="350" id="c29" origin="CHUNKER" />
+  <lex begin="337" end="342" id="l65" lemma="start" origin="TOKENIZER,TAGGER" pos="NN" text="start" />
+  <lex begin="343" end="350" id="l66" lemma="posting" origin="TOKENIZER,TAGGER" pos="NN" text="posting" />
+  <lex begin="350" end="351" id="l67" lemma="," origin="TOKENIZER,TAGGER" pos="," text="," />
+  <lex begin="352" end="356" id="l68" lemma="that" origin="TOKENIZER,TAGGER" pos="WDT" text="that" />
+  <vg begin="356" end="361" id="c30" origin="CHUNKER" />
+  <lex begin="356" end="358" id="l69" lemma="will" origin="TOKENIZER,TAGGER" pos="MD" text="'d" />
+  <lex begin="359" end="361" id="l70" lemma="be" origin="TOKENIZER,TAGGER" pos="VB" text="be" />
+  <lex begin="362" end="369" id="l71" lemma="amazing" origin="TOKENIZER,TAGGER" pos="JJ" text="amazing" />
+  <lex begin="370" end="373" id="l72" lemma="and" origin="TOKENIZER,TAGGER" pos="CC" text="and" />
+  <vg begin="374" end="387" id="c31" origin="CHUNKER" />
+  <lex begin="374" end="378" id="l73" lemma="will" origin="TOKENIZER,TAGGER" pos="MD" text="will" />
+  <lex begin="379" end="383" id="l74" lemma="help" origin="TOKENIZER,TAGGER" pos="VB" text="help" />
+  <lex begin="384" end="387" id="l75" lemma="get" origin="TOKENIZER,TAGGER" pos="VB" text="get" />
+  <ng begin="388" end="400" id="c32" origin="CHUNKER" />
+  <lex begin="388" end="391" id="l76" lemma="the" origin="TOKENIZER,TAGGER" pos="DT" text="the" />
+  <lex begin="392" end="400" id="l77" lemma="activity" origin="TOKENIZER,TAGGER" pos="NN" text="activity" />
+  <lex begin="401" end="406" id="l78" lemma="go" origin="TOKENIZER,TAGGER" pos="VBG" text="going" />
+  <vg begin="401" end="406" id="c33" origin="CHUNKER" />
+  <lex begin="406" end="407" id="l79" lemma="!" origin="TOKENIZER,TAGGER" pos="." text="!" />
+  <s begin="408" end="464" id="s6" origin="TOKENIZER" />
+  <lex begin="408" end="409" id="l80" lemma=":" origin="TOKENIZER,TAGGER" pos=":" text=":" />
+  <lex begin="409" end="410" id="l81" lemma=")" origin="TOKENIZER,TAGGER" pos=")" text=")" />
+  <lex begin="413" end="464" id="l82" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NN" text="https://www.facebook.com/groups/MississaugaCarpool/" />
+</tarsqi_tags>
+</ttk>

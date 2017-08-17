@@ -1,0 +1,35 @@
+<ttk>
+<text>
+
+Driving Toronto --&gt;&gt; Waterloo  tomorrow(Thursday) evening. Text 6134107100.
+
+</text>
+<metadata>
+  <dct value="20170817"/>
+</metadata>
+<source_tags>
+  <TEXT begin="1" end="78" />
+</source_tags>
+<tarsqi_tags>
+  <docelement begin="2" end="77" id="d1" origin="DOCSTRUCTURE" type="paragraph" />
+  <s begin="2" end="60" id="s1" origin="TOKENIZER" />
+  <ng begin="2" end="17" id="c1" origin="CHUNKER" />
+  <lex begin="2" end="9" id="l1" lemma="Driving" origin="TOKENIZER,TAGGER" pos="NNP" text="Driving" />
+  <lex begin="10" end="17" id="l2" lemma="Toronto" origin="TOKENIZER,TAGGER" pos="NNP" text="Toronto" />
+  <lex begin="18" end="20" id="l3" lemma="--" origin="TOKENIZER,TAGGER" pos=":" text="--" />
+  <lex begin="20" end="21" id="l4" lemma="&gt;" origin="TOKENIZER,TAGGER" pos="SYM" text="&gt;" />
+  <lex begin="21" end="22" id="l5" lemma="&gt;" origin="TOKENIZER,TAGGER" pos="SYM" text="&gt;" />
+  <ng begin="23" end="50" id="c2" origin="CHUNKER" />
+  <lex begin="23" end="31" id="l6" lemma="Waterloo" origin="TOKENIZER,TAGGER" pos="NNP" text="Waterloo" />
+  <lex begin="33" end="50" id="l7" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NN" text="tomorrow(Thursday" />
+  <lex begin="50" end="51" id="l8" lemma=")" origin="TOKENIZER,TAGGER" pos=")" text=")" />
+  <lex begin="52" end="59" id="l9" lemma="evening" origin="TOKENIZER,TAGGER" pos="NN" text="evening" />
+  <ng begin="52" end="59" id="c3" origin="CHUNKER" />
+  <lex begin="59" end="60" id="l10" lemma="." origin="TOKENIZER,TAGGER" pos="." text="." />
+  <s begin="61" end="77" id="s2" origin="TOKENIZER" />
+  <lex begin="61" end="65" id="l11" lemma="text" origin="TOKENIZER,TAGGER" pos="NN" text="Text" />
+  <ng begin="61" end="65" id="c4" origin="CHUNKER" />
+  <lex begin="66" end="76" id="l12" lemma="@card@" origin="TOKENIZER,TAGGER" pos="CD" text="6134107100" />
+  <lex begin="76" end="77" id="l13" lemma="." origin="TOKENIZER,TAGGER" pos="." text="." />
+</tarsqi_tags>
+</ttk>

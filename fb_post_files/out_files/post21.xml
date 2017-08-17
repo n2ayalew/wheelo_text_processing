@@ -1,0 +1,51 @@
+<ttk>
+<text>
+
+I know it's a long shot but I'm looking for a ride from DT Toronto to Waterloo tonight...
+
+</text>
+<metadata>
+  <dct value="20170817"/>
+</metadata>
+<source_tags>
+  <TEXT begin="1" end="92" />
+</source_tags>
+<tarsqi_tags>
+  <docelement begin="2" end="91" id="d1" origin="DOCSTRUCTURE" type="paragraph" />
+  <s begin="2" end="91" id="s1" origin="TOKENIZER" />
+  <lex begin="2" end="3" id="l1" lemma="I" origin="TOKENIZER,TAGGER" pos="PP" text="I" />
+  <ng begin="2" end="3" id="c1" origin="CHUNKER" />
+  <lex begin="4" end="8" id="l2" lemma="know" origin="TOKENIZER,TAGGER" pos="VBP" text="know" />
+  <vg begin="4" end="8" id="c2" origin="CHUNKER" />
+  <lex begin="9" end="11" id="l3" lemma="it" origin="TOKENIZER,TAGGER" pos="PP" text="it" />
+  <ng begin="9" end="11" id="c3" origin="CHUNKER" />
+  <lex begin="11" end="13" id="l4" lemma="be" origin="TOKENIZER,TAGGER" pos="VBZ" text="'s" />
+  <vg begin="11" end="13" id="c4" origin="CHUNKER" />
+  <ng begin="14" end="25" id="c5" origin="CHUNKER" />
+  <lex begin="14" end="15" id="l5" lemma="a" origin="TOKENIZER,TAGGER" pos="DT" text="a" />
+  <lex begin="16" end="20" id="l6" lemma="long" origin="TOKENIZER,TAGGER" pos="JJ" text="long" />
+  <lex begin="21" end="25" id="l7" lemma="shot" origin="TOKENIZER,TAGGER" pos="NN" text="shot" />
+  <lex begin="26" end="29" id="l8" lemma="but" origin="TOKENIZER,TAGGER" pos="CC" text="but" />
+  <lex begin="30" end="31" id="l9" lemma="I" origin="TOKENIZER,TAGGER" pos="PP" text="I" />
+  <ng begin="30" end="31" id="c6" origin="CHUNKER" />
+  <vg begin="31" end="41" id="c7" origin="CHUNKER" />
+  <lex begin="31" end="33" id="l10" lemma="be" origin="TOKENIZER,TAGGER" pos="VBP" text="'m" />
+  <lex begin="34" end="41" id="l11" lemma="look" origin="TOKENIZER,TAGGER" pos="VBG" text="looking" />
+  <lex begin="42" end="45" id="l12" lemma="for" origin="TOKENIZER,TAGGER" pos="IN" text="for" />
+  <ng begin="46" end="52" id="c8" origin="CHUNKER" />
+  <lex begin="46" end="47" id="l13" lemma="a" origin="TOKENIZER,TAGGER" pos="DT" text="a" />
+  <lex begin="48" end="52" id="l14" lemma="ride" origin="TOKENIZER,TAGGER" pos="NN" text="ride" />
+  <lex begin="53" end="57" id="l15" lemma="from" origin="TOKENIZER,TAGGER" pos="IN" text="from" />
+  <ng begin="58" end="68" id="c9" origin="CHUNKER" />
+  <lex begin="58" end="60" id="l16" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NNP" text="DT" />
+  <lex begin="61" end="68" id="l17" lemma="Toronto" origin="TOKENIZER,TAGGER" pos="NNP" text="Toronto" />
+  <lex begin="69" end="71" id="l18" lemma="to" origin="TOKENIZER,TAGGER" pos="TO" text="to" />
+  <ng begin="72" end="88" id="c10" origin="CHUNKER" />
+  <lex begin="72" end="80" id="l19" lemma="Waterloo" origin="TOKENIZER,TAGGER" pos="NNP" text="Waterloo" />
+  <lex begin="81" end="88" id="l20" lemma="tonight" origin="TOKENIZER,TAGGER" pos="NN" text="tonight" />
+  <TIMEX3 begin="81" end="88" origin="GUTIME" tid="t1" type="DATE" value="20170817TNI" />
+  <lex begin="88" end="89" id="l21" lemma="." origin="TOKENIZER,TAGGER" pos="." text="." />
+  <lex begin="89" end="90" id="l22" lemma="." origin="TOKENIZER,TAGGER" pos="." text="." />
+  <lex begin="90" end="91" id="l23" lemma="." origin="TOKENIZER,TAGGER" pos="." text="." />
+</tarsqi_tags>
+</ttk>

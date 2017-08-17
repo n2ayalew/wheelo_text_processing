@@ -1,0 +1,45 @@
+<ttk>
+<text>
+
+FREE WIFI and FREE SNACKS/DRINKS OTTAWA TO TORONTO ONLY $35!! Call to book 613-323-3273 or on our FB page!
+
+</text>
+<metadata>
+  <dct value="20170817"/>
+</metadata>
+<source_tags>
+  <TEXT begin="1" end="109" />
+</source_tags>
+<tarsqi_tags>
+  <docelement begin="2" end="108" id="d1" origin="DOCSTRUCTURE" type="paragraph" />
+  <s begin="2" end="63" id="s1" origin="TOKENIZER" />
+  <ng begin="2" end="11" id="c1" origin="CHUNKER" />
+  <lex begin="2" end="6" id="l1" lemma="free" origin="TOKENIZER,TAGGER" pos="JJ" text="FREE" />
+  <lex begin="7" end="11" id="l2" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NNP" text="WIFI" />
+  <lex begin="12" end="15" id="l3" lemma="and" origin="TOKENIZER,TAGGER" pos="CC" text="and" />
+  <ng begin="16" end="61" id="c2" origin="CHUNKER" />
+  <lex begin="16" end="20" id="l4" lemma="Free" origin="TOKENIZER,TAGGER" pos="NNP" text="FREE" />
+  <lex begin="21" end="34" id="l5" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NNP" text="SNACKS/DRINKS" />
+  <lex begin="35" end="41" id="l6" lemma="OTTAWA" origin="TOKENIZER,TAGGER" pos="NNP" text="OTTAWA" />
+  <lex begin="42" end="44" id="l7" lemma="To" origin="TOKENIZER,TAGGER" pos="NNP" text="TO" />
+  <lex begin="45" end="52" id="l8" lemma="Toronto" origin="TOKENIZER,TAGGER" pos="NNP" text="TORONTO" />
+  <lex begin="53" end="57" id="l9" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NNP" text="ONLY" />
+  <lex begin="58" end="61" id="l10" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NN" text="$35" />
+  <lex begin="61" end="62" id="l11" lemma="!" origin="TOKENIZER,TAGGER" pos="." text="!" />
+  <lex begin="62" end="63" id="l12" lemma="!" origin="TOKENIZER,TAGGER" pos="." text="!" />
+  <s begin="64" end="108" id="s2" origin="TOKENIZER" />
+  <lex begin="64" end="68" id="l13" lemma="call" origin="TOKENIZER,TAGGER" pos="VBP" text="Call" />
+  <vg begin="64" end="68" id="c3" origin="CHUNKER" />
+  <vg begin="69" end="76" id="c4" origin="CHUNKER" />
+  <lex begin="69" end="71" id="l14" lemma="to" origin="TOKENIZER,TAGGER" pos="TO" text="to" />
+  <lex begin="72" end="76" id="l15" lemma="book" origin="TOKENIZER,TAGGER" pos="VB" text="book" />
+  <lex begin="77" end="89" id="l16" lemma="@card@" origin="TOKENIZER,TAGGER" pos="CD" text="613-323-3273" />
+  <lex begin="90" end="92" id="l17" lemma="or" origin="TOKENIZER,TAGGER" pos="CC" text="or" />
+  <lex begin="93" end="95" id="l18" lemma="on" origin="TOKENIZER,TAGGER" pos="IN" text="on" />
+  <lex begin="96" end="99" id="l19" lemma="our" origin="TOKENIZER,TAGGER" pos="PP$" text="our" />
+  <ng begin="100" end="107" id="c5" origin="CHUNKER" />
+  <lex begin="100" end="102" id="l20" lemma="FB" origin="TOKENIZER,TAGGER" pos="NNP" text="FB" />
+  <lex begin="103" end="107" id="l21" lemma="page" origin="TOKENIZER,TAGGER" pos="NN" text="page" />
+  <lex begin="107" end="108" id="l22" lemma="!" origin="TOKENIZER,TAGGER" pos="." text="!" />
+</tarsqi_tags>
+</ttk>

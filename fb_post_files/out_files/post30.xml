@@ -1,0 +1,50 @@
+<ttk>
+<text>
+
+Looking for a driver(camping with two of my friends too) to Killbear National Park from this Friday-Sunday(time can be changed for your convenience).
+
+</text>
+<metadata>
+  <dct value="20170817"/>
+</metadata>
+<source_tags>
+  <TEXT begin="1" end="152" />
+</source_tags>
+<tarsqi_tags>
+  <docelement begin="2" end="151" id="d1" origin="DOCSTRUCTURE" type="paragraph" />
+  <s begin="2" end="151" id="s1" origin="TOKENIZER" />
+  <lex begin="2" end="9" id="l1" lemma="look" origin="TOKENIZER,TAGGER" pos="VBG" text="Looking" />
+  <vg begin="2" end="9" id="c1" origin="CHUNKER" />
+  <lex begin="10" end="13" id="l2" lemma="for" origin="TOKENIZER,TAGGER" pos="IN" text="for" />
+  <ng begin="14" end="30" id="c2" origin="CHUNKER" />
+  <lex begin="14" end="15" id="l3" lemma="a" origin="TOKENIZER,TAGGER" pos="DT" text="a" />
+  <lex begin="16" end="30" id="l4" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NN" text="driver(camping" />
+  <lex begin="31" end="35" id="l5" lemma="with" origin="TOKENIZER,TAGGER" pos="IN" text="with" />
+  <lex begin="36" end="39" id="l6" lemma="two" origin="TOKENIZER,TAGGER" pos="CD" text="two" />
+  <lex begin="40" end="42" id="l7" lemma="of" origin="TOKENIZER,TAGGER" pos="IN" text="of" />
+  <lex begin="43" end="45" id="l8" lemma="my" origin="TOKENIZER,TAGGER" pos="PP$" text="my" />
+  <lex begin="46" end="53" id="l9" lemma="friend" origin="TOKENIZER,TAGGER" pos="NNS" text="friends" />
+  <ng begin="46" end="53" id="c3" origin="CHUNKER" />
+  <lex begin="54" end="57" id="l10" lemma="too" origin="TOKENIZER,TAGGER" pos="RB" text="too" />
+  <lex begin="57" end="58" id="l11" lemma=")" origin="TOKENIZER,TAGGER" pos=")" text=")" />
+  <lex begin="59" end="61" id="l12" lemma="to" origin="TOKENIZER,TAGGER" pos="TO" text="to" />
+  <ng begin="62" end="84" id="c4" origin="CHUNKER" />
+  <lex begin="62" end="70" id="l13" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NNP" text="Killbear" />
+  <lex begin="71" end="79" id="l14" lemma="National" origin="TOKENIZER,TAGGER" pos="NNP" text="National" />
+  <lex begin="80" end="84" id="l15" lemma="Park" origin="TOKENIZER,TAGGER" pos="NNP" text="Park" />
+  <lex begin="85" end="89" id="l16" lemma="from" origin="TOKENIZER,TAGGER" pos="IN" text="from" />
+  <ng begin="90" end="113" id="c5" origin="CHUNKER" />
+  <lex begin="90" end="94" id="l17" lemma="this" origin="TOKENIZER,TAGGER" pos="DT" text="this" />
+  <lex begin="95" end="113" id="l18" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NNP" text="Friday-Sunday(time" />
+  <vg begin="114" end="128" id="c6" origin="CHUNKER" />
+  <lex begin="114" end="117" id="l19" lemma="can" origin="TOKENIZER,TAGGER" pos="MD" text="can" />
+  <lex begin="118" end="120" id="l20" lemma="be" origin="TOKENIZER,TAGGER" pos="VB" text="be" />
+  <lex begin="121" end="128" id="l21" lemma="change" origin="TOKENIZER,TAGGER" pos="VBN" text="changed" />
+  <lex begin="129" end="132" id="l22" lemma="for" origin="TOKENIZER,TAGGER" pos="IN" text="for" />
+  <lex begin="133" end="137" id="l23" lemma="your" origin="TOKENIZER,TAGGER" pos="PP$" text="your" />
+  <lex begin="138" end="149" id="l24" lemma="convenience" origin="TOKENIZER,TAGGER" pos="NN" text="convenience" />
+  <ng begin="138" end="149" id="c7" origin="CHUNKER" />
+  <lex begin="149" end="150" id="l25" lemma=")" origin="TOKENIZER,TAGGER" pos=")" text=")" />
+  <lex begin="150" end="151" id="l26" lemma="." origin="TOKENIZER,TAGGER" pos="." text="." />
+</tarsqi_tags>
+</ttk>

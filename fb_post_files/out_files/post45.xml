@@ -1,0 +1,43 @@
+<ttk>
+<text>
+
+Looking for a ride from Pearson Toronto to Waterloo, 8 PM,  August 21st, 2017
+
+</text>
+<metadata>
+  <dct value="20170817"/>
+</metadata>
+<source_tags>
+  <TEXT begin="1" end="80" />
+</source_tags>
+<tarsqi_tags>
+  <docelement begin="2" end="79" id="d1" origin="DOCSTRUCTURE" type="paragraph" />
+  <s begin="2" end="79" id="s1" origin="TOKENIZER" />
+  <lex begin="2" end="9" id="l1" lemma="look" origin="TOKENIZER,TAGGER" pos="VBG" text="Looking" />
+  <vg begin="2" end="9" id="c1" origin="CHUNKER" />
+  <lex begin="10" end="13" id="l2" lemma="for" origin="TOKENIZER,TAGGER" pos="IN" text="for" />
+  <ng begin="14" end="20" id="c2" origin="CHUNKER" />
+  <lex begin="14" end="15" id="l3" lemma="a" origin="TOKENIZER,TAGGER" pos="DT" text="a" />
+  <lex begin="16" end="20" id="l4" lemma="ride" origin="TOKENIZER,TAGGER" pos="NN" text="ride" />
+  <lex begin="21" end="25" id="l5" lemma="from" origin="TOKENIZER,TAGGER" pos="IN" text="from" />
+  <ng begin="26" end="41" id="c3" origin="CHUNKER" />
+  <lex begin="26" end="33" id="l6" lemma="Pearson" origin="TOKENIZER,TAGGER" pos="NNP" text="Pearson" />
+  <lex begin="34" end="41" id="l7" lemma="Toronto" origin="TOKENIZER,TAGGER" pos="NNP" text="Toronto" />
+  <lex begin="42" end="44" id="l8" lemma="to" origin="TOKENIZER,TAGGER" pos="TO" text="to" />
+  <lex begin="45" end="53" id="l9" lemma="Waterloo" origin="TOKENIZER,TAGGER" pos="NNP" text="Waterloo" />
+  <ng begin="45" end="53" id="c4" origin="CHUNKER" />
+  <lex begin="53" end="54" id="l10" lemma="," origin="TOKENIZER,TAGGER" pos="," text="," />
+  <ng begin="55" end="59" id="c5" origin="CHUNKER" />
+  <TIMEX3 begin="55" end="59" origin="GUTIME" tid="t1" type="TIME" value="T20" />
+  <lex begin="55" end="56" id="l11" lemma="@card@" origin="TOKENIZER,TAGGER" pos="CD" text="8" />
+  <lex begin="57" end="59" id="l12" lemma="PM" origin="TOKENIZER,TAGGER" pos="NNP" text="PM" />
+  <lex begin="59" end="60" id="l13" lemma="," origin="TOKENIZER,TAGGER" pos="," text="," />
+  <TIMEX3 begin="62" end="73" origin="GUTIME" tid="t2" type="DATE" value="20170821" />
+  <lex begin="62" end="68" id="l14" lemma="August" origin="TOKENIZER,TAGGER" pos="NNP" text="August" />
+  <ng begin="62" end="68" id="c6" origin="CHUNKER" />
+  <lex begin="69" end="73" id="l15" lemma="21st" origin="TOKENIZER,TAGGER" pos="JJ" text="21st" />
+  <lex begin="73" end="74" id="l16" lemma="," origin="TOKENIZER,TAGGER" pos="," text="," />
+  <lex begin="75" end="79" id="l17" lemma="@card@" origin="TOKENIZER,TAGGER" pos="CD" text="2017" />
+  <TIMEX3 begin="75" end="79" origin="GUTIME" tid="t3" type="DATE" value="2017" />
+</tarsqi_tags>
+</ttk>

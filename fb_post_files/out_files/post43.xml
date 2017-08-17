@@ -1,0 +1,33 @@
+<ttk>
+<text>
+
+Looking for a ride Monday August 21 from Waterloo to Pearson
+
+</text>
+<metadata>
+  <dct value="20170817"/>
+</metadata>
+<source_tags>
+  <TEXT begin="1" end="63" />
+</source_tags>
+<tarsqi_tags>
+  <docelement begin="2" end="62" id="d1" origin="DOCSTRUCTURE" type="paragraph" />
+  <s begin="2" end="62" id="s1" origin="TOKENIZER" />
+  <lex begin="2" end="9" id="l1" lemma="look" origin="TOKENIZER,TAGGER" pos="VBG" text="Looking" />
+  <vg begin="2" end="9" id="c1" origin="CHUNKER" />
+  <lex begin="10" end="13" id="l2" lemma="for" origin="TOKENIZER,TAGGER" pos="IN" text="for" />
+  <ng begin="14" end="34" id="c2" origin="CHUNKER" />
+  <lex begin="14" end="15" id="l3" lemma="a" origin="TOKENIZER,TAGGER" pos="DT" text="a" />
+  <lex begin="16" end="20" id="l4" lemma="ride" origin="TOKENIZER,TAGGER" pos="NN" text="ride" />
+  <lex begin="21" end="27" id="l5" lemma="Monday" origin="TOKENIZER,TAGGER" pos="NNP" text="Monday" />
+  <TIMEX3 begin="21" end="27" origin="GUTIME" tid="t1" type="DATE" value="" />
+  <TIMEX3 begin="28" end="37" origin="GUTIME" tid="t2" type="DATE" value="20170821" />
+  <lex begin="28" end="34" id="l6" lemma="August" origin="TOKENIZER,TAGGER" pos="NNP" text="August" />
+  <lex begin="35" end="37" id="l7" lemma="@card@" origin="TOKENIZER,TAGGER" pos="CD" text="21" />
+  <lex begin="38" end="42" id="l8" lemma="from" origin="TOKENIZER,TAGGER" pos="IN" text="from" />
+  <lex begin="43" end="51" id="l9" lemma="Waterloo" origin="TOKENIZER,TAGGER" pos="NNP" text="Waterloo" />
+  <ng begin="43" end="51" id="c3" origin="CHUNKER" />
+  <lex begin="52" end="54" id="l10" lemma="to" origin="TOKENIZER,TAGGER" pos="TO" text="to" />
+  <lex begin="55" end="62" id="l11" lemma="Pearson" origin="TOKENIZER,TAGGER" pos="NNP" text="Pearson" />
+</tarsqi_tags>
+</ttk>

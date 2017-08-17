@@ -1,0 +1,46 @@
+<ttk>
+<text>
+
+Driving from Mississauga to Waterloo at 7 pm tonight. 2 spots left, inbox for more info!
+
+</text>
+<metadata>
+  <dct value="20170817"/>
+</metadata>
+<source_tags>
+  <TEXT begin="1" end="91" />
+</source_tags>
+<tarsqi_tags>
+  <docelement begin="2" end="90" id="d1" origin="DOCSTRUCTURE" type="paragraph" />
+  <s begin="2" end="55" id="s1" origin="TOKENIZER" />
+  <lex begin="2" end="9" id="l1" lemma="drive" origin="TOKENIZER,TAGGER" pos="VBG" text="Driving" />
+  <vg begin="2" end="9" id="c1" origin="CHUNKER" />
+  <lex begin="10" end="14" id="l2" lemma="from" origin="TOKENIZER,TAGGER" pos="IN" text="from" />
+  <lex begin="15" end="26" id="l3" lemma="Mississauga" origin="TOKENIZER,TAGGER" pos="NNP" text="Mississauga" />
+  <ng begin="15" end="26" id="c2" origin="CHUNKER" />
+  <lex begin="27" end="29" id="l4" lemma="to" origin="TOKENIZER,TAGGER" pos="TO" text="to" />
+  <lex begin="30" end="38" id="l5" lemma="Waterloo" origin="TOKENIZER,TAGGER" pos="NNP" text="Waterloo" />
+  <ng begin="30" end="38" id="c3" origin="CHUNKER" />
+  <lex begin="39" end="41" id="l6" lemma="at" origin="TOKENIZER,TAGGER" pos="IN" text="at" />
+  <ng begin="42" end="54" id="c4" origin="CHUNKER" />
+  <TIMEX3 begin="42" end="46" origin="GUTIME" tid="t1" type="TIME" value="T19" />
+  <lex begin="42" end="43" id="l7" lemma="@card@" origin="TOKENIZER,TAGGER" pos="CD" text="7" />
+  <lex begin="44" end="46" id="l8" lemma="pm" origin="TOKENIZER,TAGGER" pos="NN" text="pm" />
+  <lex begin="47" end="54" id="l9" lemma="tonight" origin="TOKENIZER,TAGGER" pos="NN" text="tonight" />
+  <TIMEX3 begin="47" end="54" origin="GUTIME" tid="t2" type="DATE" value="20170817TNI" />
+  <lex begin="54" end="55" id="l10" lemma="." origin="TOKENIZER,TAGGER" pos="." text="." />
+  <s begin="56" end="90" id="s2" origin="TOKENIZER" />
+  <ng begin="56" end="63" id="c5" origin="CHUNKER" />
+  <lex begin="56" end="57" id="l11" lemma="@card@" origin="TOKENIZER,TAGGER" pos="CD" text="2" />
+  <lex begin="58" end="63" id="l12" lemma="spot" origin="TOKENIZER,TAGGER" pos="NNS" text="spots" />
+  <lex begin="64" end="68" id="l13" lemma="leave" origin="TOKENIZER,TAGGER" pos="VBD" text="left" />
+  <vg begin="64" end="68" id="c6" origin="CHUNKER" />
+  <lex begin="68" end="69" id="l14" lemma="," origin="TOKENIZER,TAGGER" pos="," text="," />
+  <lex begin="70" end="75" id="l15" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="RB" text="inbox" />
+  <lex begin="76" end="79" id="l16" lemma="for" origin="TOKENIZER,TAGGER" pos="IN" text="for" />
+  <ng begin="80" end="89" id="c7" origin="CHUNKER" />
+  <lex begin="80" end="84" id="l17" lemma="more" origin="TOKENIZER,TAGGER" pos="JJR" text="more" />
+  <lex begin="85" end="89" id="l18" lemma="info" origin="TOKENIZER,TAGGER" pos="NN" text="info" />
+  <lex begin="89" end="90" id="l19" lemma="!" origin="TOKENIZER,TAGGER" pos="." text="!" />
+</tarsqi_tags>
+</ttk>

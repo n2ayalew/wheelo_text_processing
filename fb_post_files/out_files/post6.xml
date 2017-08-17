@@ -1,0 +1,34 @@
+<ttk>
+<text>
+
+Driving from Waterloo to Kingston/Montreal, Friday Aug.25, 8am.
+
+</text>
+<metadata>
+  <dct value="20170817"/>
+</metadata>
+<source_tags>
+  <TEXT begin="1" end="66" />
+</source_tags>
+<tarsqi_tags>
+  <docelement begin="2" end="65" id="d1" origin="DOCSTRUCTURE" type="paragraph" />
+  <s begin="2" end="65" id="s1" origin="TOKENIZER" />
+  <lex begin="2" end="9" id="l1" lemma="drive" origin="TOKENIZER,TAGGER" pos="VBG" text="Driving" />
+  <vg begin="2" end="9" id="c1" origin="CHUNKER" />
+  <lex begin="10" end="14" id="l2" lemma="from" origin="TOKENIZER,TAGGER" pos="IN" text="from" />
+  <lex begin="15" end="23" id="l3" lemma="Waterloo" origin="TOKENIZER,TAGGER" pos="NNP" text="Waterloo" />
+  <ng begin="15" end="23" id="c2" origin="CHUNKER" />
+  <lex begin="24" end="26" id="l4" lemma="to" origin="TOKENIZER,TAGGER" pos="TO" text="to" />
+  <lex begin="27" end="44" id="l5" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NNP" text="Kingston/Montreal" />
+  <ng begin="27" end="44" id="c3" origin="CHUNKER" />
+  <lex begin="44" end="45" id="l6" lemma="," origin="TOKENIZER,TAGGER" pos="," text="," />
+  <ng begin="46" end="59" id="c4" origin="CHUNKER" />
+  <lex begin="46" end="52" id="l7" lemma="Friday" origin="TOKENIZER,TAGGER" pos="NNP" text="Friday" />
+  <TIMEX3 begin="46" end="52" origin="GUTIME" tid="t1" type="DATE" value="" />
+  <lex begin="53" end="59" id="l8" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NNP" text="Aug.25" />
+  <lex begin="59" end="60" id="l9" lemma="," origin="TOKENIZER,TAGGER" pos="," text="," />
+  <lex begin="61" end="64" id="l10" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="JJ" text="8am" />
+  <TIMEX3 begin="61" end="64" origin="GUTIME" tid="t2" type="TIME" value="T08" />
+  <lex begin="64" end="65" id="l11" lemma="." origin="TOKENIZER,TAGGER" pos="." text="." />
+</tarsqi_tags>
+</ttk>

@@ -1,0 +1,114 @@
+<ttk>
+<text>
+
+- Leaving Waterloo at 9 Am tomorrow. Coming back in the evening. - Open to pick up/ drop off along t $15 - Waterloo, Ontario  - Leaving Waterloo at 9 Am tomorrow. Coming back in the evening. - Open to pick up/ drop off along the way - 3/3 seats available Message and comment if you need a ride :)
+
+</text>
+<metadata>
+  <dct value="20170817"/>
+</metadata>
+<source_tags>
+  <TEXT begin="1" end="299" />
+</source_tags>
+<tarsqi_tags>
+  <docelement begin="2" end="298" id="d1" origin="DOCSTRUCTURE" type="paragraph" />
+  <s begin="2" end="38" id="s1" origin="TOKENIZER" />
+  <lex begin="2" end="3" id="l1" lemma="-" origin="TOKENIZER,TAGGER" pos=":" text="-" />
+  <ng begin="4" end="20" id="c1" origin="CHUNKER" />
+  <lex begin="4" end="11" id="l2" lemma="leave" origin="TOKENIZER,TAGGER" pos="VBG" text="Leaving" />
+  <lex begin="12" end="20" id="l3" lemma="Waterloo" origin="TOKENIZER,TAGGER" pos="NNP" text="Waterloo" />
+  <lex begin="21" end="23" id="l4" lemma="at" origin="TOKENIZER,TAGGER" pos="IN" text="at" />
+  <ng begin="24" end="37" id="c2" origin="CHUNKER" />
+  <TIMEX3 begin="24" end="28" origin="GUTIME" tid="t1" type="TIME" value="T09" />
+  <lex begin="24" end="25" id="l5" lemma="@card@" origin="TOKENIZER,TAGGER" pos="CD" text="9" />
+  <lex begin="26" end="28" id="l6" lemma="Am" origin="TOKENIZER,TAGGER" pos="NNP" text="Am" />
+  <lex begin="29" end="37" id="l7" lemma="tomorrow" origin="TOKENIZER,TAGGER" pos="NN" text="tomorrow" />
+  <TIMEX3 begin="29" end="37" origin="GUTIME" tid="t2" type="DATE" value="20170818" />
+  <lex begin="37" end="38" id="l8" lemma="." origin="TOKENIZER,TAGGER" pos="." text="." />
+  <s begin="39" end="66" id="s2" origin="TOKENIZER" />
+  <lex begin="39" end="45" id="l9" lemma="come" origin="TOKENIZER,TAGGER" pos="VBG" text="Coming" />
+  <vg begin="39" end="45" id="c3" origin="CHUNKER" />
+  <lex begin="46" end="50" id="l10" lemma="back" origin="TOKENIZER,TAGGER" pos="RB" text="back" />
+  <lex begin="51" end="53" id="l11" lemma="in" origin="TOKENIZER,TAGGER" pos="IN" text="in" />
+  <ng begin="54" end="65" id="c4" origin="CHUNKER" />
+  <lex begin="54" end="57" id="l12" lemma="the" origin="TOKENIZER,TAGGER" pos="DT" text="the" />
+  <lex begin="58" end="65" id="l13" lemma="evening" origin="TOKENIZER,TAGGER" pos="NN" text="evening" />
+  <lex begin="65" end="66" id="l14" lemma="." origin="TOKENIZER,TAGGER" pos="." text="." />
+  <s begin="67" end="164" id="s3" origin="TOKENIZER" />
+  <lex begin="67" end="68" id="l15" lemma="-" origin="TOKENIZER,TAGGER" pos=":" text="-" />
+  <lex begin="69" end="73" id="l16" lemma="open" origin="TOKENIZER,TAGGER" pos="VB" text="Open" />
+  <vg begin="69" end="73" id="c5" origin="CHUNKER" />
+  <vg begin="74" end="81" id="c6" origin="CHUNKER" />
+  <lex begin="74" end="76" id="l17" lemma="to" origin="TOKENIZER,TAGGER" pos="TO" text="to" />
+  <lex begin="77" end="81" id="l18" lemma="pick" origin="TOKENIZER,TAGGER" pos="VB" text="pick" />
+  <ng begin="82" end="90" id="c7" origin="CHUNKER" />
+  <lex begin="82" end="85" id="l19" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="JJ" text="up/" />
+  <lex begin="86" end="90" id="l20" lemma="drop" origin="TOKENIZER,TAGGER" pos="NN" text="drop" />
+  <lex begin="91" end="94" id="l21" lemma="off" origin="TOKENIZER,TAGGER" pos="RP" text="off" />
+  <lex begin="95" end="100" id="l22" lemma="along" origin="TOKENIZER,TAGGER" pos="IN" text="along" />
+  <ng begin="101" end="106" id="c8" origin="CHUNKER" />
+  <lex begin="101" end="102" id="l23" lemma="t" origin="TOKENIZER,TAGGER" pos="NN" text="t" />
+  <lex begin="103" end="106" id="l24" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NN" text="$15" />
+  <lex begin="107" end="108" id="l25" lemma="-" origin="TOKENIZER,TAGGER" pos=":" text="-" />
+  <lex begin="109" end="117" id="l26" lemma="Waterloo" origin="TOKENIZER,TAGGER" pos="NNP" text="Waterloo" />
+  <ng begin="109" end="117" id="c9" origin="CHUNKER" />
+  <lex begin="117" end="118" id="l27" lemma="," origin="TOKENIZER,TAGGER" pos="," text="," />
+  <lex begin="119" end="126" id="l28" lemma="Ontario" origin="TOKENIZER,TAGGER" pos="NNP" text="Ontario" />
+  <ng begin="119" end="126" id="c10" origin="CHUNKER" />
+  <lex begin="128" end="129" id="l29" lemma="-" origin="TOKENIZER,TAGGER" pos=":" text="-" />
+  <ng begin="130" end="146" id="c11" origin="CHUNKER" />
+  <lex begin="130" end="137" id="l30" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="NNP" text="Leaving" />
+  <lex begin="138" end="146" id="l31" lemma="Waterloo" origin="TOKENIZER,TAGGER" pos="NNP" text="Waterloo" />
+  <lex begin="147" end="149" id="l32" lemma="at" origin="TOKENIZER,TAGGER" pos="IN" text="at" />
+  <ng begin="150" end="163" id="c12" origin="CHUNKER" />
+  <TIMEX3 begin="150" end="154" origin="GUTIME" tid="t3" type="TIME" value="T09" />
+  <lex begin="150" end="151" id="l33" lemma="@card@" origin="TOKENIZER,TAGGER" pos="CD" text="9" />
+  <lex begin="152" end="154" id="l34" lemma="Am" origin="TOKENIZER,TAGGER" pos="NNP" text="Am" />
+  <lex begin="155" end="163" id="l35" lemma="tomorrow" origin="TOKENIZER,TAGGER" pos="NN" text="tomorrow" />
+  <TIMEX3 begin="155" end="163" origin="GUTIME" tid="t4" type="DATE" value="20170818" />
+  <lex begin="163" end="164" id="l36" lemma="." origin="TOKENIZER,TAGGER" pos="." text="." />
+  <s begin="165" end="192" id="s4" origin="TOKENIZER" />
+  <lex begin="165" end="171" id="l37" lemma="come" origin="TOKENIZER,TAGGER" pos="VBG" text="Coming" />
+  <vg begin="165" end="171" id="c13" origin="CHUNKER" />
+  <lex begin="172" end="176" id="l38" lemma="back" origin="TOKENIZER,TAGGER" pos="RB" text="back" />
+  <lex begin="177" end="179" id="l39" lemma="in" origin="TOKENIZER,TAGGER" pos="IN" text="in" />
+  <ng begin="180" end="191" id="c14" origin="CHUNKER" />
+  <lex begin="180" end="183" id="l40" lemma="the" origin="TOKENIZER,TAGGER" pos="DT" text="the" />
+  <lex begin="184" end="191" id="l41" lemma="evening" origin="TOKENIZER,TAGGER" pos="NN" text="evening" />
+  <lex begin="191" end="192" id="l42" lemma="." origin="TOKENIZER,TAGGER" pos="." text="." />
+  <s begin="193" end="298" id="s5" origin="TOKENIZER" />
+  <lex begin="193" end="194" id="l43" lemma="-" origin="TOKENIZER,TAGGER" pos=":" text="-" />
+  <lex begin="195" end="199" id="l44" lemma="open" origin="TOKENIZER,TAGGER" pos="VB" text="Open" />
+  <vg begin="195" end="199" id="c15" origin="CHUNKER" />
+  <vg begin="200" end="207" id="c16" origin="CHUNKER" />
+  <lex begin="200" end="202" id="l45" lemma="to" origin="TOKENIZER,TAGGER" pos="TO" text="to" />
+  <lex begin="203" end="207" id="l46" lemma="pick" origin="TOKENIZER,TAGGER" pos="VB" text="pick" />
+  <ng begin="208" end="216" id="c17" origin="CHUNKER" />
+  <lex begin="208" end="211" id="l47" lemma="&lt;unknown&gt;" origin="TOKENIZER,TAGGER" pos="JJ" text="up/" />
+  <lex begin="212" end="216" id="l48" lemma="drop" origin="TOKENIZER,TAGGER" pos="NN" text="drop" />
+  <lex begin="217" end="220" id="l49" lemma="off" origin="TOKENIZER,TAGGER" pos="RP" text="off" />
+  <lex begin="221" end="226" id="l50" lemma="along" origin="TOKENIZER,TAGGER" pos="IN" text="along" />
+  <ng begin="227" end="234" id="c18" origin="CHUNKER" />
+  <lex begin="227" end="230" id="l51" lemma="the" origin="TOKENIZER,TAGGER" pos="DT" text="the" />
+  <lex begin="231" end="234" id="l52" lemma="way" origin="TOKENIZER,TAGGER" pos="NN" text="way" />
+  <lex begin="235" end="236" id="l53" lemma="-" origin="TOKENIZER,TAGGER" pos=":" text="-" />
+  <ng begin="237" end="264" id="c19" origin="CHUNKER" />
+  <lex begin="237" end="240" id="l54" lemma="@card@" origin="TOKENIZER,TAGGER" pos="CD" text="3/3" />
+  <lex begin="241" end="246" id="l55" lemma="seat" origin="TOKENIZER,TAGGER" pos="NNS" text="seats" />
+  <lex begin="247" end="256" id="l56" lemma="available" origin="TOKENIZER,TAGGER" pos="JJ" text="available" />
+  <lex begin="257" end="264" id="l57" lemma="Message" origin="TOKENIZER,TAGGER" pos="NNP" text="Message" />
+  <lex begin="265" end="268" id="l58" lemma="and" origin="TOKENIZER,TAGGER" pos="CC" text="and" />
+  <lex begin="269" end="276" id="l59" lemma="comment" origin="TOKENIZER,TAGGER" pos="VB" text="comment" />
+  <vg begin="269" end="276" id="c20" origin="CHUNKER" />
+  <lex begin="277" end="279" id="l60" lemma="if" origin="TOKENIZER,TAGGER" pos="IN" text="if" />
+  <lex begin="280" end="283" id="l61" lemma="you" origin="TOKENIZER,TAGGER" pos="PP" text="you" />
+  <ng begin="280" end="283" id="c21" origin="CHUNKER" />
+  <lex begin="284" end="288" id="l62" lemma="need" origin="TOKENIZER,TAGGER" pos="VBP" text="need" />
+  <vg begin="284" end="288" id="c22" origin="CHUNKER" />
+  <ng begin="289" end="295" id="c23" origin="CHUNKER" />
+  <lex begin="289" end="290" id="l63" lemma="a" origin="TOKENIZER,TAGGER" pos="DT" text="a" />
+  <lex begin="291" end="295" id="l64" lemma="ride" origin="TOKENIZER,TAGGER" pos="NN" text="ride" />
+  <lex begin="296" end="297" id="l65" lemma=":" origin="TOKENIZER,TAGGER" pos=":" text=":" />
+  <lex begin="297" end="298" id="l66" lemma=")" origin="TOKENIZER,TAGGER" pos=")" text=")" />
+</tarsqi_tags>
+</ttk>
