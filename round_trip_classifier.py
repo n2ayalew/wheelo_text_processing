@@ -130,9 +130,9 @@ def round_trip_classifier_bag_of_word():
 	error_rate /= 50
 	print error_rate
 
-def round_trip_classifier_pos_tagger():
+def train_round_trip_classifier_pos_tagger():
 	tokenizer = RegexpTokenizer("\w+|-*>|<-*|\$\s?\d+|\d+:\d.\s.am|\d+:\d.\s.pm")
-	f = codecs.open('training_data.txt', 'r', 'utf-8-sig')
+	f = codecs.open('training_data/training_data.txt', 'r', 'utf-8-sig')
 	posts = []
 	posts_tagged = []
 	labels = []
@@ -161,7 +161,7 @@ def round_trip_classifier_pos_tagger():
 	training_set = range(500)
 	test_list = []
 
-	for i in range(50):
+	for i in range(30):
 		rand_index = int(random.uniform(0, len(training_set)))
 		test_list.append(training_set[rand_index])
 		del(training_set[rand_index])
@@ -175,6 +175,8 @@ def round_trip_classifier_pos_tagger():
 
 	p1,p0,p1Vec,p0Vec = trainNB(array(training_posts), array(training_labels))
 
+	f.close()
+	
 	# Test classifier
 	error_rate = 0.0
 	for i in test_list:
@@ -182,8 +184,21 @@ def round_trip_classifier_pos_tagger():
 		if (label != labels[i]):
 			error_rate += 1
 	error_rate /= 50
-	print '{} %'.format(error_rate*100)
+	return p1,p0,p1Vec,p0Vec,vocab,error_rate
 
-	f.close()
+class RoundTripClassifier:
+	
+	def __init__(self):
+		self.p1,self.p0,self.p1Vec,self.p0Vec,self.vocab,self.error_rate=train_round_trip_classifier_pos_tagger()
+	
+	def classify(self, post):
+		"""
+		Return 1 if round trip, otherwise return 0.
+		"""
+		tokenizer = RegexpTokenizer("\w+|-*>|<-*|\$\s?\d+|\d+:\d.\s.am|\d+:\d.\s.pm")
+		toks = tokenizer.tokenize(post)
+		tagged_post = nltk.pos_tag(toks)
+		tags = [token[1] for token in tagged_post]
+		tags_vec = convert_words_to_vec(tags, self.vocab)
+		return classifyNB(tags_vec, self.p0Vec, self.p1Vec, self.p0, self.p1)
 
-round_trip_classifier_pos_tagger()

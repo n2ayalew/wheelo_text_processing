@@ -191,3 +191,37 @@ def main():
 		print "<---------------------- END POST ----------------------->\n"
 
 main()
+
+class LocFinder:
+	
+	table = "toronto|markham|waterloo|\sloo|BK|mississauga|scarborough|square one|yorkdale|bk plaza|richmond hill|downtown toronto|stc|pearson|york|ottawa|montreal|london|thornhill|dt toronto|dt|vaughn|fairview mall|fairview|finch station|north york|kingston|hamilton|Laurier|Brampton"
+	
+	def __init__(self):
+		self.origins = []
+		self.dests = []
+		self.others = []
+	
+	def classifyLocs(self, msg):
+		locs = list( set(get_origin_dest(table, msg)) )
+		self.origins = get_origin(locs, msg)
+		
+		for o in self.origins:
+			try:
+				locs.remove(o)
+			except ValueError:
+				continue
+
+		self.dests = get_dest(locs, msg)
+		for d in self.dests:
+			try:
+				self.locs.remove(d)
+			except ValueError:
+				continue
+		
+		self.others = locs
+	
+	def resetLocs(self):
+		self.origins = []
+		self.dests = []
+		self.others = []
+
