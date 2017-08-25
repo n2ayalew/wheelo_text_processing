@@ -144,7 +144,6 @@ def get_dest(locations, str):
 def get_other_loc(locations, str):
 	return None
 
-
 def main():
 	import sys
 	reload(sys)
@@ -190,8 +189,6 @@ def main():
 		pprint(others)
 		print "<---------------------- END POST ----------------------->\n"
 
-main()
-
 class LocFinder:
 	
 	table = "toronto|markham|waterloo|\sloo|BK|mississauga|scarborough|square one|yorkdale|bk plaza|richmond hill|downtown toronto|stc|pearson|york|ottawa|montreal|london|thornhill|dt toronto|dt|vaughn|fairview mall|fairview|finch station|north york|kingston|hamilton|Laurier|Brampton"
@@ -202,7 +199,7 @@ class LocFinder:
 		self.others = []
 	
 	def classifyLocs(self, msg):
-		locs = list( set(get_origin_dest(table, msg)) )
+		locs = list( set(get_origin_dest(self.table, msg)) )
 		self.origins = get_origin(locs, msg)
 		
 		for o in self.origins:
@@ -214,7 +211,7 @@ class LocFinder:
 		self.dests = get_dest(locs, msg)
 		for d in self.dests:
 			try:
-				self.locs.remove(d)
+				locs.remove(d)
 			except ValueError:
 				continue
 		

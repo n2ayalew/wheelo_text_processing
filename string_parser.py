@@ -55,6 +55,7 @@ def type_tagger(num_posts, posts):
 	others = []
 	rideshare_posts = []
 	num_rideshare_posts = 0
+	nrs = 0
 	for i in range(num_posts):
 		posts[i].set_type()
 		if (posts[i].driver_post):
@@ -62,6 +63,7 @@ def type_tagger(num_posts, posts):
 			nrs += 1
 		else:
 			others.append(posts[i])
+	return rideshare_posts, others, nrs
 
 def rt_tagger(rs_posts, others):
 	""" 
@@ -97,6 +99,7 @@ def main(token):
 	rtClassifier = rt_tagger(rs_posts, others)
 
 	loc_tagger(rs_posts)
+
 	return
 
 
