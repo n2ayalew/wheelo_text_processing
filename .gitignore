@@ -1,3 +1,6 @@
 .DS_Store
 *.pyc
+fb_post_files/out_files/*
+fb_post_files/in_files/*
+*.swp
 
