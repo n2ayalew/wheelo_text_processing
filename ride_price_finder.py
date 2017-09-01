@@ -21,6 +21,9 @@ def get_posts(token):
 	return len(messages), messages
 
 def get_post_prices(post):
+	"""
+	Given a post in UTF-8 encoding return a list of prices found
+	"""
 	reg = re.compile('\$\s?\d+|\d+\s?\$')
 	matches = re.findall(reg, post)
 

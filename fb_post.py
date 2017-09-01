@@ -7,12 +7,13 @@ class FBPost:
 		self.post_id = post_id
 		self.driver_post = None
 		self.round_trip = None
-		self.price = None
+		self.prices = None
 		self.dest = None
 		self.origin = None
 		self.other_locs = None
-		self.date = None
-		self.time = None
+		self.dates = None
+		self.times = None
+		self.temporal_tags = None
 		self.err_post = False
 
 	def set_type(self):

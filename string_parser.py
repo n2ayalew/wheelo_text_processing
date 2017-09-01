@@ -4,6 +4,8 @@ import codecs
 from fb_post import FBPost
 from round_trip_classifier import RoundTripClassifier
 from location_finding2 import LocFinder
+from ride_price_finder import get_post_prices
+from temporal_gutime import TemporalTagger
 
 # GLOBALS
 URL_RIDESHARE = 'https://graph.facebook.com/v2.8/225049564330328/feed' 
@@ -90,6 +92,19 @@ def loc_tagger(rs_posts):
 		rs.other_locs = lf.others
 		lf.resetLocs()
 
+def price_finder(rs_posts):
+	"""
+	Given a list of FBPosts in UTF-8 encoding, set price member as list of potential post prices.
+	"""
+	for rs in rs_posts:
+		rs.prices = get_post_prices(rs.msg)
+
+def temporal_tagger(rs_posts, n):
+	tt = TemporalTagger(rs_posts)
+	tt.refresh_all()
+	tt.tag_all_posts(rs_posts, n)
+	return tt
+
 def main(token):
 
 	posts, nposts, prev_page, next_page = get_posts(token, 50) 
@@ -100,8 +115,11 @@ def main(token):
 
 	loc_tagger(rs_posts)
 
+	price_finder(rs_posts)
+
+	tempTagger = temporal_tagger(rs_posts, nrs)
+
 	return
 
 
-
-main('EAACEdEose0cBAPLDrN6SQjF8eZASKiRnSveGZCGpE0foj0d1lPFssMsBnsxVmKFUZBIMv9nz8GfuZCqUkKpwwALb6zZCoa1jXrsQaUmNP1ZBxX42IYazMlV8eOjrFKuthzEHpaZA9IgPlwqWdCvJGnYHJiyjUFZC2ZBpRYYHecrzOrHuaRh3ZAZAmZCtVNH36fLb1l8ZD')
+main('EAACEdEose0cBAF4xI2dHK48JVeqV0Yd9HOyYe8q4zDOnJStSBR3M1JMeG4Czk9uYm8mGZAcEKivQzs9U38ZBFJdEiA9GrvI3zQibGZCFj6byNkOmBkTweiT5qs2AWzv8idJ0hytWZBdQVwKZCA1HjltNrDTGGvtg3mCIgPFLZCQRHFKQ8RPW100MkMvyxr6DoZD')
